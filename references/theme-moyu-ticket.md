@@ -403,9 +403,28 @@
 
 ---
 
-## 多行代码块 → 用通用增量库
+## 组件 16 外链转引用 / 引用链接（references-links）
 
-本主题不设专属多行代码块组件；Markdown 的三反引号围栏代码块直接用 `common-components.md` 的 1a 深色代码块（默认）或 1b 浅色代码块，左竖条/强调色换成本主题主色 `#059669`；行内代码用本主题组件 6d。
+> 文章中的外部链接在文末转为引用列表呈现。票据边框风格。
+
+```html
+<section style="padding:0 10px;margin-bottom:24px;">
+  <section style="background:#F9FAFB;border:1.5px solid #E5E7EB;border-radius:10px;padding:18px 16px;margin:0 0 20px;">
+    <p style="font-size:13px;font-weight:700;color:#111827;margin:0 0 12px;display:flex;align-items:center;gap:6px;">
+      <span style="width:4px;height:12px;background:#059669;border-radius:2px;display:inline-block;"><span leaf=""><br></span></span>
+      <span leaf="">引用链接 · REFERENCES</span>
+    </p>
+    <p style="font-size:12px;color:#4B5563;line-height:1.8;margin:0 0 6px;word-break:break-all;">
+      <span leaf="">[1] 访问 Undsky: </span><span style="color:#059669;"><span leaf="">https://www.undsky.com</span></span>
+    </p>
+    <p style="font-size:12px;color:#4B5563;line-height:1.8;margin:0;word-break:break-all;">
+      <span leaf="">[2] 示例外链名称: </span><span style="color:#059669;"><span leaf="">https://example.com/path</span></span>
+    </p>
+  </section>
+</section>
+```
+
+**使用说明**：第一个外链默认固定为 `[1] 访问 Undsky: https://www.undsky.com`，即使文章中没有外链也始终显示此组件；正文中出现的其他外部 URL 按出现顺序从 `[2]` 开始顺延编号，并在正文中以 `[N]` 上标标记，文末通过此组件集中展示完整链接。
 
 ---
 
@@ -431,9 +450,11 @@
 
   <!-- 8. 结束符（组件14 end-mark） -->
 
+  <!-- 9. 外链转引用（组件16 references-links） -->
+
 </section>
 
-<!-- 9. 隐藏标记（组件15 hidden-mark，外层容器之外，全文最后一个元素） -->
+<!-- 10. 隐藏标记（组件15 hidden-mark，外层容器之外，全文最后一个元素） -->
 ```
 
 **骨架铁律**：本主题**不设目录/导航组件**——票据风强调"一张凭证从头看到尾"的阅读仪式，不做分段跳读；组件 15 隐藏标记必须在组件 1 全局容器闭合**之后**，是整篇产物真正的最后一个元素。
@@ -469,7 +490,7 @@
 | 生活/情感随笔 | 正文段落 5 + 核心观点卡片 11（无大数字版）+ 结论卡片 9（少量） | 小节标题 4 |
 | 案例实战 | Case 标题 7 + 图片容器 8 + 结论卡片 9 + 编号特点列表 10 | 核心观点卡片 11 |
 
-所有类型共用固定结构：票据封面 2 + 章节标题 3 + 固定签名段落 + 结尾互动区 13 + 结束符 14 + 隐藏标记 15。
+所有类型共用固定结构：票据封面 2 + 章节标题 3 + 固定签名段落 + 结尾互动区 13 + 结束符 14 + 引用链接 16 + 隐藏标记 15。
 
 ---
 
@@ -495,4 +516,5 @@
 | `#话题` 标签 | 组件 12 tag-group | |
 | 行内 `` `code` `` / 技术名词/模型名 | 组件 6d 代码标签 | |
 | ` ``` 多行代码块 ``` ` | 通用库 1a 深色（默认）/ 1b 浅色 | 左竖条换本主题主色 `#059669` |
-| 文末 | 组件 13 footer-cta（+ 14 end-mark） | 固定签名段落放 footer-cta 前 |
+| 文末外链/引用 | 组件 16 references-links | 正文中用 `[N]` 标记，文末列出引用链接列表 |
+| 文末 | 组件 13 footer-cta（+ 14 end-mark + 16 references-links） | 固定签名段落放 footer-cta 前 |

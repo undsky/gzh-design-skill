@@ -870,9 +870,28 @@
 
 ---
 
-## 多行代码块 → 用通用增量库
+## 组件 35 references-links（外链转引用 / 引用链接）
 
-本主题不设专属多行代码块组件；Markdown 的三反引号围栏代码块直接用 `common-components.md` 的 1a 深色代码块（默认）或 1b 浅色代码块，左竖条/强调色换成本主题墨色 `#1e1f23`；行内代码用本主题"文字强调 d"或组件 11。
+> 文章中的外部链接在文末转为引用列表呈现。内刊排版质感。
+
+```html
+<section style="margin:0 0 24px;padding:0 8px;">
+  <section style="background:#eeefe9;border:1px solid #bfc1b7;border-radius:6px;padding:18px 16px;">
+    <p style="font-size:13px;font-weight:800;color:#1e1f23;margin:0 0 10px;display:flex;align-items:center;gap:6px;letter-spacing:0.5px;">
+      <span style="width:3px;height:12px;background:#ed7b2f;display:inline-block;"><span leaf=""><br></span></span>
+      <span leaf="">REFERENCES · 引用链接</span>
+    </p>
+    <p style="font-size:12px;color:#4d4f46;line-height:1.8;margin:0 0 6px;word-break:break-all;">
+      <span leaf="">[1] 访问 Undsky: </span><span style="color:#ed7b2f;"><span leaf="">https://www.undsky.com</span></span>
+    </p>
+    <p style="font-size:12px;color:#4d4f46;line-height:1.8;margin:0;word-break:break-all;">
+      <span leaf="">[2] 示例外链名称: </span><span style="color:#ed7b2f;"><span leaf="">https://example.com/path</span></span>
+    </p>
+  </section>
+</section>
+```
+
+**使用说明**：第一个外链默认固定为 `[1] 访问 Undsky: https://www.undsky.com`，即使文章中没有外链也始终显示此组件；正文中出现的其他外部 URL 按出现顺序从 `[2]` 开始顺延编号，并在正文中以 `[N]` 上标标记，文末通过此组件集中展示完整链接。
 
 ---
 
@@ -904,9 +923,11 @@
 
   <!-- 9. 结尾行动区（组件28 ending-actions，{{文末互动引导}} 用 SKILL.md 固定文案第二段） -->
 
+  <!-- 10. 外链转引用（组件35 references-links） -->
+
 </section>
 
-<!-- 10. 隐藏标记（外层容器之外，全文最后一个元素） -->
+<!-- 11. 隐藏标记（外层容器之外，全文最后一个元素） -->
 <p style="display:none;">
   <mp-style-type data-value="3"></mp-style-type>
 </p>
@@ -943,7 +964,7 @@
 | 生活/情感随笔 | 头图卡2 + 内刊标签条4 + 正文段落10 + 分割点17 + 重点观点卡15 | 摘要横幅条32 |
 | 案例实战 | 头图卡2 + 章节标题3 + 案例时间线26 + 对比摘要卡21 + 结尾内容块34 | 信任墙27、重点观点卡15 |
 
-所有类型共用固定结构：头图卡2 + 固定签名段落(组件10) + 结尾行动区28 + 隐藏标记。
+所有类型共用固定结构：头图卡2 + 固定签名段落(组件10) + 结尾行动区28 + 引用链接35 + 隐藏标记。
 
 ---
 
@@ -971,4 +992,5 @@
 | 案例/示例展开 | 组件26 案例时间线 | |
 | 常见问题 | 组件25 常见问题列表 | |
 | 文末总结/结语 | 组件34 结尾内容块 / 组件31 暗色摘要边框 / 组件30 暗色摘要分栏 / 组件32 摘要横幅条 | 四选一，按篇幅和语气选 |
-| 文末 | 组件28 ending-actions（+ 固定签名段落） | 固定签名段落放 ending-actions 前 |
+| 文末外链/引用 | 组件35 references-links | 正文中用 `[N]` 标记，文末列出引用链接列表 |
+| 文末 | 组件28 ending-actions（+ 固定签名段落 + 引用链接35） | 固定签名段落放 ending-actions 前 |

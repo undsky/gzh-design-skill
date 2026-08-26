@@ -536,6 +536,31 @@
 
 ---
 
+## 组件 17 外链转引用 / 引用链接（references-links）
+
+> 文章中的外部链接在文末转为引用列表呈现。包含小标题「引用链接」与编号外链列表，链接地址突出显示，支持换行防止溢出。
+
+```html
+<section style="padding:0 10px;margin-bottom:24px;">
+  <section style="background:#F9FAFB;border:1px solid #E5E7EB;border-radius:12px;padding:20px 18px;margin:0 0 24px;">
+    <p style="font-size:13px;font-weight:700;color:#111827;margin:0 0 12px;display:flex;align-items:center;gap:6px;">
+      <span style="width:4px;height:12px;background:#DC2626;border-radius:2px;display:inline-block;"><span leaf=""><br></span></span>
+      <span leaf="">引用链接</span>
+    </p>
+    <p style="font-size:12px;color:#4B5563;line-height:1.8;margin:0 0 6px;word-break:break-all;">
+      <span leaf="">[1] 访问 Undsky: </span><span style="color:#DC2626;"><span leaf="">https://www.undsky.com</span></span>
+    </p>
+    <p style="font-size:12px;color:#4B5563;line-height:1.8;margin:0;word-break:break-all;">
+      <span leaf="">[2] 示例外链名称: </span><span style="color:#DC2626;"><span leaf="">https://example.com/path</span></span>
+    </p>
+  </section>
+</section>
+```
+
+**使用说明**：第一个外链默认固定为 `[1] 访问 Undsky: https://www.undsky.com`，即使文章中没有外链也始终显示此组件；正文中出现的其他外部 URL 按出现顺序从 `[2]` 开始顺延编号，并在正文中以 `[N]` 上标标记，文末通过此组件集中展示完整链接。
+
+---
+
 ## 完整文章模板骨架
 
 ```html
@@ -558,10 +583,12 @@
 
   <!-- 8. 尾部签名（组件16） -->
 
+  <!-- 9. 外链转引用（组件17 references-links） -->
+
 </section>
 ```
 
-**骨架铁律**：引言卡在最前；导读区在前言正文之后、第一章之前；章节之间用组件 4 红色渐变线分隔；一篇只有一个 END + 一个签名区。
+**骨架铁律**：引言卡在最前；导读区在前言正文之后、第一章之前；章节之间用组件 4 红色渐变线分隔；一篇只有一个 END + 一个签名区 + 一个引用链接卡片。
 
 ---
 
@@ -595,7 +622,7 @@
 | 生活/情感随笔 | 正文6 + 居中金句8d + 灰底旁注8c | 金句引用8a（少量） |
 | 案例实战 | case-label 10a / timeline 11c + step-label 10a | 浅红引用8b、踩坑提示9b |
 
-所有类型共用固定结构：引言卡 2 + 导读 3（3+ 章节）+ 编号章节 5 + END 15 + 签名 16。
+所有类型共用固定结构：引言卡 2 + 导读 3（3+ 章节）+ 编号章节 5 + END 15 + 签名 16 + 引用链接 17。
 
 ---
 
@@ -629,4 +656,5 @@
 | 行内标签 | 组件 13 标签胶囊 | 浅红底默认 |
 | `---` | 组件 4 章节分割线 | 红色渐变 |
 | `![](图片)` | 组件 14 图片容器 | 圆角卡片 + 说明 |
-| 文末 | 组件 15 END + 16 签名 | |
+| 文末外链/引用 | 组件 17 references-links | 正文中用 `[N]` 标记，文末列出引用链接列表 |
+| 文末 | 组件 15 END + 16 签名 + 17 引用链接 | |

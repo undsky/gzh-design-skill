@@ -435,6 +435,30 @@
 
 ---
 
+## 组件 16 外链转引用 / 引用链接（references-links）
+
+> 文章中的外部链接在文末转为引用列表呈现。极简纯白 + 极细边框，符合留白禅意调性。
+
+```html
+<section style="padding:0 10px 24px;">
+  <section style="border:1px solid #E2E8E4;border-radius:4px;padding:18px 16px;background:#FFFFFF;margin-bottom:20px;">
+    <p style="font-size:12px;font-weight:700;color:#4A5D52;letter-spacing:1px;margin:0 0 10px;">
+      <span leaf="">REFERENCE · 引用链接</span>
+    </p>
+    <p style="font-size:12px;color:#6B7C72;line-height:1.8;margin:0 0 6px;word-break:break-all;">
+      <span leaf="">[1] 访问 Undsky: </span><span style="color:#4A5D52;"><span leaf="">https://www.undsky.com</span></span>
+    </p>
+    <p style="font-size:12px;color:#6B7C72;line-height:1.8;margin:0;word-break:break-all;">
+      <span leaf="">[2] 示例外链名称: </span><span style="color:#4A5D52;"><span leaf="">https://example.com/path</span></span>
+    </p>
+  </section>
+</section>
+```
+
+**使用说明**：第一个外链默认固定为 `[1] 访问 Undsky: https://www.undsky.com`，即使文章中没有外链也始终显示此组件；正文中出现的其他外部 URL 按出现顺序从 `[2]` 开始顺延编号，并在正文中以 `[N]` 上标标记，文末通过此组件集中展示完整链接。
+
+---
+
 ## 完整文章模板骨架
 
 ```html
@@ -476,6 +500,9 @@
   <!-- 11. 尾部签名 -->
   <!-- 组件 15 -->
 
+  <!-- 12. 外链转引用 -->
+  <!-- 组件 16 references-links -->
+
 </section>
 ```
 
@@ -510,7 +537,7 @@
 | 访谈/人物特稿 | 正文 6 + 左竖条引用 8b（引语）+ 居中衬线引用 8a（金句） | 极细线旁注 8c |
 | 数据复盘 | 正文 6 + 数据卡片组 12 | 加粗结论段 11 |
 
-所有类型共用固定结构：引言卡 2 + 目录 3 + 章节标题 5 + 分割线 4 + END 14 + 签名 15。教程、盘点、强运营类内容与本主题气质不符，选主题时应主动提示用户换摸鱼绿等信息密度更高的主题。
+所有类型共用固定结构：引言卡 2 + 目录 3 + 章节标题 5 + 分割线 4 + END 14 + 签名 15 + 引用链接 16。教程、盘点、强运营类内容与本主题气质不符，选主题时应主动提示用户换摸鱼绿等信息密度更高的主题。
 
 ---
 
@@ -535,4 +562,5 @@
 | 要点列表 | 组件 12 要点列表版 | 竖排，编号 + 细线分隔 |
 | 行内标签 | 组件 13 标签胶囊 | 浅墨绿底为默认，描边为轻量 |
 | `---` | 组件 4 章节分割线 | 1px 极细线 + 64px 留白 |
-| 文末 | 组件 14 + 15 | END 细线 + 签名 |
+| 文末外链/引用 | 组件 16 references-links | 正文中用 `[N]` 标记，文末列出引用链接列表 |
+| 文末 | 组件 14 + 15 + 16 | END 细线 + 签名 + 引用链接 |
