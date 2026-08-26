@@ -801,17 +801,8 @@
   <p style="font-size:12px;color:#4B5563;line-height:1.8;margin:0 0 6px;word-break:break-all;">
     <span leaf="">[1] 访问 Undsky: </span><span style="color:#059669;"><span leaf="">https://www.undsky.com</span></span>
   </p>
-  <p style="font-size:12px;color:#4B5563;line-height:1.8;margin:0 0 6px;word-break:break-all;">
-    <span leaf="">[2] 访问 Doocs: </span><span style="color:#059669;"><span leaf="">https://github.com/doocs</span></span>
-  </p>
-  <p style="font-size:12px;color:#4B5563;line-height:1.8;margin:0 0 6px;word-break:break-all;">
-    <span leaf="">[3] yanglbme: </span><span style="color:#059669;"><span leaf="">https://github.com/yanglbme</span></span>
-  </p>
-  <p style="font-size:12px;color:#4B5563;line-height:1.8;margin:0 0 6px;word-break:break-all;">
-    <span leaf="">[4] contact@yanglibin.info: </span><span style="color:#059669;"><span leaf="">mailto:contact@yanglibin.info</span></span>
-  </p>
   <p style="font-size:12px;color:#4B5563;line-height:1.8;margin:0;word-break:break-all;">
-    <span leaf="">[5] YangFong: </span><span style="color:#059669;"><span leaf="">https://github.com/YangFong</span></span>
+    <span leaf="">[2] 示例外链名称: </span><span style="color:#059669;"><span leaf="">https://example.com/path</span></span>
   </p>
 </section>
 ```
