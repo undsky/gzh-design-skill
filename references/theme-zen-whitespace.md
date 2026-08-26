@@ -423,7 +423,7 @@
 ```html
 <section style="padding: 0 16px 40px;">
   <p style="margin-bottom: 26px;font-size: 15px;line-height: 1.9;text-align: justify;color: #525252;">
-    <span leaf="">我是 {{作者名}}，{{一句话简介，如：热衷于分享 AI 观察与干货}}。</span>
+    <span leaf="">我是 undsky（全网同名），专注AI应用落地，开发经验分享。</span>
   </p>
   <p style="margin-bottom: 26px;font-size: 15px;line-height: 1.9;text-align: justify;color: #525252;">
     <span leaf="">如果你觉得今天这篇有收获，欢迎</span>
