@@ -442,7 +442,7 @@
 
 ## 组件 1️⃣5️⃣ 尾部作者签名区
 
-> 固定内容："我是甲木..." + "点赞、在看、转发"三连（靛蓝加粗）。
+> 固定内容："我是 undsky （全网同名）..." + "点赞、在看、转发"三连（靛蓝加粗）。
 
 ```html
 <section style="padding: 0 10px;">
@@ -450,7 +450,7 @@
     <span leaf=""><img src="个人名片或引导图URL" style="max-width:100%;"></span>
   </section>
   <p style="margin-bottom: 20px;font-size: 15px;line-height: 1.8;text-align: justify;">
-    <span leaf="">我是甲木，热衷于分享一些 AI 观察， AI 干货内容</span>
+    <span leaf="">我是 undsky （全网同名），热衷于分享一些 AI 观察， AI 干货内容</span>
   </p>
   <p style="margin-bottom: 20px;font-size: 15px;line-height: 1.8;text-align: justify;">
     <span leaf="">如果你觉得今天这篇有收获，欢迎</span>

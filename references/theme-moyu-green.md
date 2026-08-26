@@ -788,42 +788,35 @@
 
 ## 组件 13 结尾组件
 
-### 13a. footer-cta（互动三连区，即本主题的签名/CTA 区）
+### 13a. references-links（外链转引用 / 引用链接）
 
-固定文案照写；SVG 图标微信支持，原样保留。
+文章中的外部链接在文末转为引用列表呈现。包含小标题「引用链接」与编号外链列表，链接地址突出显示，支持换行防止溢出。
 
 ```html
-<section style="background:radial-gradient(circle at center,#F9FAFB 0%,#FFFFFF 100%);border:1px solid #E5E7EB;border-radius:16px;padding:32px 20px;text-align:center;box-shadow:0 4px 12px rgba(0,0,0,0.03);margin:0 0 24px;">
-  <p style="font-size:13px;font-weight:bold;color:#111827;margin-bottom:20px;line-height:1.6;">
-    <span leaf="">既然看到这里了，如果觉得有用，随手点个赞、在看、转发三连吧。</span>
+<section style="background:#F9FAFB;border:1px solid #E5E7EB;border-radius:12px;padding:20px 18px;margin:0 0 24px;">
+  <p style="font-size:13px;font-weight:700;color:#111827;margin:0 0 12px;display:flex;align-items:center;gap:6px;">
+    <span style="width:4px;height:12px;background:#059669;border-radius:2px;display:inline-block;"><span leaf=""><br></span></span>
+    <span leaf="">引用链接</span>
   </p>
-  <section style="display:flex;justify-content:center;gap:24px;margin-bottom:16px;">
-    <section style="text-align:center;cursor:pointer;color:#4B5563;">
-      <section style="width:40px;height:40px;display:flex;align-items:center;justify-content:center;margin:0 auto 6px;background:#fff;border-radius:12px;box-shadow:0 2px 4px rgba(0,0,0,0.05);border:1px solid #F3F4F6;">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path></svg>
-      </section>
-      <span style="font-size:10px;font-weight:600;"><span leaf="">点赞</span></span>
-    </section>
-    <section style="text-align:center;cursor:pointer;color:#4B5563;">
-      <section style="width:40px;height:40px;display:flex;align-items:center;justify-content:center;margin:0 auto 6px;background:#fff;border-radius:12px;box-shadow:0 2px 4px rgba(0,0,0,0.05);border:1px solid #F3F4F6;">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"></circle><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path></svg>
-      </section>
-      <span style="font-size:10px;font-weight:600;"><span leaf="">在看</span></span>
-    </section>
-    <section style="text-align:center;cursor:pointer;color:#059669;">
-      <section style="width:40px;height:40px;display:flex;align-items:center;justify-content:center;margin:0 auto 6px;background:#ECFDF5;border-radius:12px;box-shadow:0 2px 4px rgba(5,150,105,0.15);border:1px solid #A7F3D0;">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18v-4a8 8 0 0 1 8-8h8"></path><polyline points="16 2 20 6 16 10"></polyline></svg>
-      </section>
-      <span style="font-size:10px;font-weight:600;"><span leaf="">转发</span></span>
-    </section>
-  </section>
-  <p style="font-size:10px;color:#9CA3AF;letter-spacing:1px;margin:0;">
-    <span leaf="">THANKS FOR READING</span>
+  <p style="font-size:12px;color:#4B5563;line-height:1.8;margin:0 0 6px;word-break:break-all;">
+    <span leaf="">[1] 访问 Undsky: </span><span style="color:#059669;"><span leaf="">https://www.undsky.com</span></span>
+  </p>
+  <p style="font-size:12px;color:#4B5563;line-height:1.8;margin:0 0 6px;word-break:break-all;">
+    <span leaf="">[2] 访问 Doocs: </span><span style="color:#059669;"><span leaf="">https://github.com/doocs</span></span>
+  </p>
+  <p style="font-size:12px;color:#4B5563;line-height:1.8;margin:0 0 6px;word-break:break-all;">
+    <span leaf="">[3] yanglbme: </span><span style="color:#059669;"><span leaf="">https://github.com/yanglbme</span></span>
+  </p>
+  <p style="font-size:12px;color:#4B5563;line-height:1.8;margin:0 0 6px;word-break:break-all;">
+    <span leaf="">[4] contact@yanglibin.info: </span><span style="color:#059669;"><span leaf="">mailto:contact@yanglibin.info</span></span>
+  </p>
+  <p style="font-size:12px;color:#4B5563;line-height:1.8;margin:0;word-break:break-all;">
+    <span leaf="">[5] YangFong: </span><span style="color:#059669;"><span leaf="">https://github.com/YangFong</span></span>
   </p>
 </section>
 ```
 
-**签名文案适配**：SKILL.md 的作者签名（"我是 {{作者名}}…"两段，默认占位、由用户替换）以正文段落（组件 5）形式放在 footer-cta **之前**；footer-cta 内部文案保持上面的固定句式，两者不重复出现"三连"字样时可将签名第二段并入 footer-cta 顶部文字。
+**使用说明**：第一个外链默认固定为 `[1] 访问 Undsky: https://www.undsky.com`，即使文章中没有外链也始终显示此组件；正文中出现的其他外部 URL 按出现顺序从 `[2]` 开始顺延编号，并在文末通过此组件集中展示完整链接。
 
 ### 13b. brand-card（品牌尾图）
 
@@ -833,7 +826,7 @@
 </section>
 ```
 
-有品牌尾图素材时放在 footer-cta 之后，无素材整块省略。
+有品牌尾图素材时放在引用链接之后，无素材整块省略。
 
 ---
 
@@ -857,7 +850,7 @@
 
   <!-- 7. 结语章（组件4 变体：编号 ///，PART 改 LAST，章名"写在最后"） -->
 
-  <!-- 8. 互动三连（组件13a footer-cta，前面放固定签名段落） -->
+  <!-- 8. 外链转引用（组件13a references-links，文章有外链时生成） -->
 
   <!-- 9. 品牌尾图（组件13b，有素材才加） -->
 
@@ -897,7 +890,7 @@
 | 生活/情感随笔 | paragraph 5 + oneliner-card 9b + center-divider 9d | quote-box 9a（少量） |
 | 案例实战 | case-label 7b / timeline 11d + step-label 7a | prompt-block 8a、yellow-warning 10c |
 
-所有类型共用固定结构：封面 2 + 目录 3 + 章节标题 4 + 签名/三连 13。
+所有类型共用固定结构：封面 2 + 目录 3 + 章节标题 4 + 结尾引用 13。
 
 ---
 
@@ -933,4 +926,4 @@
 | 亮点提示 | 组件 10b green-tip / 10d green-info | |
 | `![](图片)` | 组件 12a image | 原图代码保留 |
 | 视频 | 组件 12b video-card | 原视频代码保留 |
-| 文末 | 组件 13a footer-cta（+ 13b brand-card） | 签名段落放 footer-cta 前 |
+| 文末外链/引用 | 组件 13a references-links（+ 13b brand-card） | 文章有外链时列出引用列表 |

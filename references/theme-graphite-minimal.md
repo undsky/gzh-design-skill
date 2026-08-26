@@ -593,8 +593,8 @@ GIF 动图角标改极简描边胶囊：边框与字色用石墨主色 `#52525B`
     </p>
     <p style="margin-bottom:0;font-size:15px;line-height:1.8;color:#52525B;text-align:justify;">
       <span leaf="">如果你觉得今天这篇有收获，欢迎</span>
-      <strong style="color:#27272A;"><span leaf="">点赞、在看、转发</span></strong>
-      <span leaf="">三连，我们下篇见。</span>
+      <strong style="color:#27272A;"><span leaf="">点赞、转发、喜欢、回复</span></strong>
+      <span leaf="">，我们下篇见。</span>
     </p>
   </section>
 </section>
