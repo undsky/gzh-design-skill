@@ -463,26 +463,32 @@ Banner 标签底：#44403C（炭灰）
   <section style="height:1px;background:#E7E5E4;margin:0 0 32px;"></section>
   <section style="border:1px solid #E7E5E4;border-radius:20px;padding:32px 24px;text-align:center;margin-bottom:32px;">
     <p style="font-size:17px;font-weight:700;color:#1C1917;margin:0 0 24px;line-height:1.6;">
-      <span leaf="">觉得有用，随手点个赞、在看、转发三连吧</span>
+      <span leaf="">觉得有用，随手点赞、转发、喜欢、回复吧</span>
     </p>
-    <section style="display:flex;justify-content:center;margin-bottom:8px;">
-      <section style="text-align:center;margin:0 16px;">
-        <section style="width:48px;height:48px;background:#F5F5F4;border-radius:12px;margin:0 auto 6px;line-height:48px;font-size:22px;">
+    <section style="display:flex;justify-content:center;gap:12px;margin-bottom:8px;flex-wrap:wrap;">
+      <section style="text-align:center;">
+        <section style="width:44px;height:44px;background:#F5F5F4;border-radius:12px;margin:0 auto 6px;line-height:44px;font-size:20px;">
           <span leaf="">&#x1F44D;</span>
         </section>
         <p style="font-size:12px;color:#44403C;margin:0;"><span leaf="">点赞</span></p>
       </section>
-      <section style="text-align:center;margin:0 16px;">
-        <section style="width:48px;height:48px;background:#F5F5F4;border-radius:12px;margin:0 auto 6px;line-height:48px;font-size:22px;">
-          <span leaf="">&#x1F440;</span>
+      <section style="text-align:center;">
+        <section style="width:44px;height:44px;background:#F5F5F4;border-radius:12px;margin:0 auto 6px;line-height:44px;font-size:20px;">
+          <span leaf="">&#x2197;</span>
         </section>
-        <p style="font-size:12px;color:#44403C;margin:0;"><span leaf="">在看</span></p>
+        <p style="font-size:12px;color:#44403C;margin:0;"><span leaf="">转发</span></p>
       </section>
-      <section style="text-align:center;margin:0 16px;">
-        <section style="width:48px;height:48px;background:#B05A3C;border-radius:12px;margin:0 auto 6px;line-height:48px;font-size:22px;">
-          <span style="color:#FAFAF8;" leaf="">&#x2197;</span>
+      <section style="text-align:center;">
+        <section style="width:44px;height:44px;background:#F5F5F4;border-radius:12px;margin:0 auto 6px;line-height:44px;font-size:20px;">
+          <span leaf="">&#x2764;&#xFE0F;</span>
         </section>
-        <p style="font-size:12px;color:#B05A3C;font-weight:600;margin:0;"><span leaf="">转发</span></p>
+        <p style="font-size:12px;color:#44403C;margin:0;"><span leaf="">喜欢</span></p>
+      </section>
+      <section style="text-align:center;">
+        <section style="width:44px;height:44px;background:#B05A3C;border-radius:12px;margin:0 auto 6px;line-height:44px;font-size:20px;">
+          <span style="color:#FAFAF8;" leaf="">&#x1F4AC;</span>
+        </section>
+        <p style="font-size:12px;color:#B05A3C;font-weight:600;margin:0;"><span leaf="">回复</span></p>
       </section>
     </section>
     <p style="font-size:11px;color:#A8A29E;letter-spacing:3px;margin:16px 0 0;">
@@ -553,4 +559,4 @@ Banner 标签底：#44403C（炭灰）
 | `![](图片)` | 组件 11 图片容器 | 圆角卡片 |
 | 概念/工具列表 | 组件 9 徽章列表 | 米白底徽章 |
 | `---` | 组件 12 分割线 | 渐变暖灰线 |
-| 文末 | 组件 13 CTA 卡片 | 三连互动（转发按钮赤陶色） |
+| 文末 | 组件 13 CTA 卡片 | 四连互动（回复按钮赤陶色） |

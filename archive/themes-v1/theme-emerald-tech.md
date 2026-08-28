@@ -509,30 +509,37 @@
   <!-- CTA 卡片 -->
   <section style="border:1px solid #E5E7EB;border-radius:20px;padding:32px 24px;text-align:center;margin-bottom:32px;">
     <p style="font-size:17px;font-weight:700;color:#1A1A1A;margin:0 0 24px;line-height:1.6;">
-      <span leaf="">觉得有用，随手点个赞、在看、转发三连吧</span>
+      <span leaf="">觉得有用，随手点赞、转发、喜欢、回复吧</span>
     </p>
-    <!-- 三个按钮 -->
-    <section style="display:flex;justify-content:center;margin-bottom:8px;">
+    <!-- 四个按钮 -->
+    <section style="display:flex;justify-content:center;gap:12px;margin-bottom:8px;flex-wrap:wrap;">
       <!-- 点赞 -->
-      <section style="text-align:center;margin:0 16px;">
-        <section style="width:48px;height:48px;background:#F5F5F5;border-radius:12px;margin:0 auto 6px;line-height:48px;font-size:22px;">
+      <section style="text-align:center;">
+        <section style="width:44px;height:44px;background:#F5F5F5;border-radius:12px;margin:0 auto 6px;line-height:44px;font-size:20px;">
           <span leaf="">👍</span>
         </section>
         <p style="font-size:12px;color:#374151;margin:0;"><span leaf="">点赞</span></p>
       </section>
-      <!-- 在看 -->
-      <section style="text-align:center;margin:0 16px;">
-        <section style="width:48px;height:48px;background:#F5F5F5;border-radius:12px;margin:0 auto 6px;line-height:48px;font-size:22px;">
-          <span leaf="">👀</span>
-        </section>
-        <p style="font-size:12px;color:#374151;margin:0;"><span leaf="">在看</span></p>
-      </section>
-      <!-- 转发（绿色高亮） -->
-      <section style="text-align:center;margin:0 16px;">
-        <section style="width:48px;height:48px;background:#ECFDF5;border:1px solid #D1FAE5;border-radius:12px;margin:0 auto 6px;line-height:48px;font-size:22px;">
+      <!-- 转发 -->
+      <section style="text-align:center;">
+        <section style="width:44px;height:44px;background:#F5F5F5;border-radius:12px;margin:0 auto 6px;line-height:44px;font-size:20px;">
           <span leaf="">↗</span>
         </section>
-        <p style="font-size:12px;color:#10B981;font-weight:600;margin:0;"><span leaf="">转发</span></p>
+        <p style="font-size:12px;color:#374151;margin:0;"><span leaf="">转发</span></p>
+      </section>
+      <!-- 喜欢 -->
+      <section style="text-align:center;">
+        <section style="width:44px;height:44px;background:#F5F5F5;border-radius:12px;margin:0 auto 6px;line-height:44px;font-size:20px;">
+          <span leaf="">❤️</span>
+        </section>
+        <p style="font-size:12px;color:#374151;margin:0;"><span leaf="">喜欢</span></p>
+      </section>
+      <!-- 回复（绿色高亮） -->
+      <section style="text-align:center;">
+        <section style="width:44px;height:44px;background:#ECFDF5;border:1px solid #D1FAE5;border-radius:12px;margin:0 auto 6px;line-height:44px;font-size:20px;">
+          <span leaf="">💬</span>
+        </section>
+        <p style="font-size:12px;color:#10B981;font-weight:600;margin:0;"><span leaf="">回复</span></p>
       </section>
     </section>
     <!-- THANKS FOR READING -->
@@ -610,7 +617,7 @@
 | `![](图片)` | 组件 11 图片容器 | 圆角卡片 |
 | 产品列表 `- ● 名称` | 组件 9 产品徽章 | 绿色徽章标签 |
 | `---` | 组件 12 分割线 | 实线或渐变 |
-| 文末 | 组件 13 CTA 卡片 | 三连互动 |
+| 文末 | 组件 13 CTA 卡片 | 四连互动 |
 
 ---
 
@@ -626,5 +633,5 @@
 | 引用块 | 浅蓝渐变 | 暗底/浅红/左边线 | **灰底居中金句 / 黑底白字** |
 | 产品列表 | 无 | 无 | **绿色徽章标签** |
 | 荧光笔 | 蓝色底 | 红色底 | **黄色底** |
-| 文章结尾 | END 渐变线 + 签名 | END 渐变线 + 签名 | **CTA 互动卡片 + 三连按钮** |
+| 文章结尾 | END 渐变线 + 签名 | END 渐变线 + 签名 | **CTA 互动卡片 + 四连按钮** |
 | 整体气质 | 散文、轻盈 | 沉稳、力量 | **杂志、结构、产品感** |
