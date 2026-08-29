@@ -468,7 +468,7 @@
   </p>
   <p style="margin-bottom:20px;font-size:15px;line-height:1.85;text-align:justify;color:#2D2A26;">
     <span leaf="">如果你觉得今天这篇有收获，欢迎</span>
-    <strong style="color:#A87C4F;font-family:'Noto Serif SC','Songti SC',Georgia,serif;"><span leaf="">点赞、转发、喜欢、回复</span></strong>
+    <strong style="color:#A87C4F;font-family:'Noto Serif SC','Songti SC',Georgia,serif;"><span leaf="">点赞、分享、推荐、写留言</span></strong>
     <span leaf="">，我们下篇见</span>
   </p>
 </section>

@@ -336,7 +336,7 @@
 
 ## 组件 13 结尾互动区 footer-cta（本主题的签名/CTA 区）
 
-**用途**：文章结尾，票据风的"点赞·转发·喜欢·回复"四连区，撕票虚线收尾。SVG 图标微信支持，原样保留。
+**用途**：文章结尾，票据风的"点赞·分享·推荐·写留言"四连区，撕票虚线收尾。SVG 图标微信支持，原样保留。
 
 **签名文案适配**：SKILL.md 的作者签名（"我是 undsky（全网同名），专注AI应用落地，开发经验分享。"等两段）以正文段落（组件 5）形式放在本组件**之前**；本组件内部 `{{互动文案}}` 直接使用 SKILL.md 固定的第二段（"如果你觉得今天这篇有收获…我们下篇见"）。
 
@@ -359,19 +359,19 @@
         <section style="width:40px;height:40px;display:flex;align-items:center;justify-content:center;margin:0 auto 6px;background:#fff;border:1px solid #1a1a1a;">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="15 14 20 9 15 4"></polyline><path d="M4 20v-7a4 4 0 0 1 4-4h12"></path></svg>
         </section>
-        <span style="font-size:10px;font-weight:600;"><span leaf="">转发</span></span>
+        <span style="font-size:10px;font-weight:600;"><span leaf="">分享</span></span>
       </section>
       <section style="text-align:center;color:#555;">
         <section style="width:40px;height:40px;display:flex;align-items:center;justify-content:center;margin:0 auto 6px;background:#fff;border:1px solid #1a1a1a;">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
         </section>
-        <span style="font-size:10px;font-weight:600;"><span leaf="">喜欢</span></span>
+        <span style="font-size:10px;font-weight:600;"><span leaf="">推荐</span></span>
       </section>
       <section style="text-align:center;color:#059669;">
         <section style="width:40px;height:40px;display:flex;align-items:center;justify-content:center;margin:0 auto 6px;background:#F0FDF4;border:2px solid #059669;">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
         </section>
-        <span style="font-size:10px;font-weight:600;"><span leaf="">回复</span></span>
+        <span style="font-size:10px;font-weight:600;"><span leaf="">写留言</span></span>
       </section>
     </section>
     <section style="border-top:1px dashed #ccc;padding-top:12px;">

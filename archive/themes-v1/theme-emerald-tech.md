@@ -509,7 +509,7 @@
   <!-- CTA 卡片 -->
   <section style="border:1px solid #E5E7EB;border-radius:20px;padding:32px 24px;text-align:center;margin-bottom:32px;">
     <p style="font-size:17px;font-weight:700;color:#1A1A1A;margin:0 0 24px;line-height:1.6;">
-      <span leaf="">觉得有用，随手点赞、转发、喜欢、回复吧</span>
+      <span leaf="">觉得有用，随手点赞、分享、推荐、写留言吧</span>
     </p>
     <!-- 四个按钮 -->
     <section style="display:flex;justify-content:center;gap:12px;margin-bottom:8px;flex-wrap:wrap;">
@@ -520,26 +520,26 @@
         </section>
         <p style="font-size:12px;color:#374151;margin:0;"><span leaf="">点赞</span></p>
       </section>
-      <!-- 转发 -->
+      <!-- 分享 -->
       <section style="text-align:center;">
         <section style="width:44px;height:44px;background:#F5F5F5;border-radius:12px;margin:0 auto 6px;line-height:44px;font-size:20px;">
           <span leaf="">↗</span>
         </section>
-        <p style="font-size:12px;color:#374151;margin:0;"><span leaf="">转发</span></p>
+        <p style="font-size:12px;color:#374151;margin:0;"><span leaf="">分享</span></p>
       </section>
-      <!-- 喜欢 -->
+      <!-- 推荐 -->
       <section style="text-align:center;">
         <section style="width:44px;height:44px;background:#F5F5F5;border-radius:12px;margin:0 auto 6px;line-height:44px;font-size:20px;">
           <span leaf="">❤️</span>
         </section>
-        <p style="font-size:12px;color:#374151;margin:0;"><span leaf="">喜欢</span></p>
+        <p style="font-size:12px;color:#374151;margin:0;"><span leaf="">推荐</span></p>
       </section>
-      <!-- 回复（绿色高亮） -->
+      <!-- 写留言（绿色高亮） -->
       <section style="text-align:center;">
         <section style="width:44px;height:44px;background:#ECFDF5;border:1px solid #D1FAE5;border-radius:12px;margin:0 auto 6px;line-height:44px;font-size:20px;">
           <span leaf="">💬</span>
         </section>
-        <p style="font-size:12px;color:#10B981;font-weight:600;margin:0;"><span leaf="">回复</span></p>
+        <p style="font-size:12px;color:#10B981;font-weight:600;margin:0;"><span leaf="">写留言</span></p>
       </section>
     </section>
     <!-- THANKS FOR READING -->

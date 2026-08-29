@@ -480,7 +480,7 @@
     </p>
     <p style="margin-bottom:0;font-size:15px;line-height:1.8;color:#C9D1D9;">
       <span leaf="">如果你觉得今天这篇有收获，欢迎</span>
-      <strong style="color:#3FB950;"><span leaf="">点赞、转发、喜欢、回复</span></strong>
+      <strong style="color:#3FB950;"><span leaf="">点赞、分享、推荐、写留言</span></strong>
       <span leaf="">，我们下篇见。</span>
     </p>
   </section>

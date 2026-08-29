@@ -442,7 +442,7 @@
 
 ## 组件 1️⃣5️⃣ 尾部作者签名区
 
-> 固定内容："我是 undsky （全网同名）..." + "点赞、转发、喜欢、回复"互动（紫色加粗）。
+> 固定内容："我是 undsky （全网同名）..." + "点赞、分享、推荐、写留言"互动（紫色加粗）。
 
 ```html
 <section style="padding: 0 10px;">
@@ -454,7 +454,7 @@
   </p>
   <p style="margin-bottom: 20px;font-size: 15px;line-height: 1.8;text-align: justify;">
     <span leaf="">如果你觉得今天这篇有收获，欢迎</span>
-    <strong style="color:#7C3AED;"><span leaf="">点赞、转发、喜欢、回复</span></strong>
+    <strong style="color:#7C3AED;"><span leaf="">点赞、分享、推荐、写留言</span></strong>
     <span leaf="">，我们下篇见</span>
   </p>
 </section>
