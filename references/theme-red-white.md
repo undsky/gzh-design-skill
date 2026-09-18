@@ -516,16 +516,13 @@
 
 ## 组件 16 尾部作者签名区
 
-> 固定签名文案以正文段落形式呈现；有个人名片/引导图素材才放图，无素材整块删。
+> 固定展示公众号卡片；文末带互动引导。
 
 ```html
 <section style="padding:0 10px;">
-  <section style="text-align:center;margin-bottom:10px;border-radius:12px;overflow:hidden;">
-    <span leaf=""><img src="{{个人名片或引导图URL，无则删本 section}}" style="max-width:100%;height:auto;display:block;margin:0 auto;"></span>
+  <section style="text-align:center;margin-bottom:16px;border-radius:12px;overflow:hidden;">
+    <span leaf=""><img src="https://cdn.undsky.com/img/card_01_sketch_notes_raw_thumb.png" style="max-width:100%;height:auto;display:block;margin:0 auto;"></span>
   </section>
-  <p style="margin-bottom:20px;font-size:15px;line-height:1.8;text-align:justify;">
-    <span leaf="">我是 undsky（全网同名），专注AI应用落地，开发经验分享。</span>
-  </p>
   <p style="margin-bottom:20px;font-size:15px;line-height:1.8;text-align:justify;">
     <span leaf="">如果你觉得今天这篇有收获，欢迎</span>
     <strong style="color:#DC2626;"><span leaf="">点赞、分享、推荐、写留言</span></strong>

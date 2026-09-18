@@ -583,14 +583,14 @@ GIF 动图角标改极简描边胶囊：边框与字色用石墨主色 `#52525B`
 
 ## 组件 16 尾部作者签名区
 
-> 固定签名文案以正文段落形式呈现；有个人名片 / 引导图素材才放图，无素材整块删。
+> 固定展示公众号卡片；文末带互动引导。
 
 ```html
 <section style="padding:0 10px 24px;">
   <section style="border-top:1px solid #E4E4E7;padding-top:28px;">
-    <p style="margin-bottom:16px;font-size:15px;line-height:1.8;color:#52525B;text-align:justify;">
-      <span leaf="">我是 undsky（全网同名），专注AI应用落地，开发经验分享。</span>
-    </p>
+    <section style="text-align:center;margin-bottom:16px;">
+      <span leaf=""><img src="https://cdn.undsky.com/img/card_01_sketch_notes_raw_thumb.png" style="max-width:100%;height:auto;display:block;margin:0 auto;"></span>
+    </section>
     <p style="margin-bottom:0;font-size:15px;line-height:1.8;color:#52525B;text-align:justify;">
       <span leaf="">如果你觉得今天这篇有收获，欢迎</span>
       <strong style="color:#27272A;"><span leaf="">点赞、分享、推荐、写留言</span></strong>

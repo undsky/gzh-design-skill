@@ -48,4 +48,6 @@ SKILL.md 只放高信号流程；references 放重文档，按需读取；script
 
 ---
 
-我是 undsky（全网同名），专注AI应用落地，开发经验分享。如果你觉得今天这篇有收获，欢迎点赞、分享、推荐、写留言，我们下篇见。
+![](https://cdn.undsky.com/img/card_01_sketch_notes_raw_thumb.png)
+
+如果你觉得今天这篇有收获，欢迎点赞、分享、推荐、写留言，我们下篇见。
